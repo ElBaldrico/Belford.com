@@ -181,6 +181,72 @@
             </div>
         </div>
     </div>
+<div class="contact-form-section">
+    <h2>Contáctanos</h2>
+    <form action="tu-servidor-o-url-de-procesamiento" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
 
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<!-- Estilos para el formulario -->
+<style>
+    .contact-form-section {
+        margin-top: 50px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .contact-form-section form {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .contact-form-section label {
+        font-size: 18px;
+        color: #333;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .contact-form-section input, 
+    .contact-form-section textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact-form-section button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .contact-form-section button:hover {
+        background-color: #575757;
+    }
+</style>
+    
 </body>
 </html>
